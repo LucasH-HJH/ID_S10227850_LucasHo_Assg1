@@ -93,6 +93,7 @@ button:hover
 {
   font-family: "Montserrat", sans-serif;
   font-size: 50%;
+  text-align: center;
 }
 
 /*Intro Image*/
@@ -102,4 +103,20 @@ button:hover
   width: 50%;
   height: auto;
   padding: 5%;
+}
+
+/*Find Out More Div*/
+.find-out-more
+{
+  margin: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Find Out More Button Div*/
+.find-out-button
+{
+  margin: 3%;
 }
