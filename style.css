@@ -88,12 +88,20 @@ button:hover
   font-size: 200%;
 }
 
+/*Intro Paragraph Container*/
+.intro-paragraph
+{
+  width: 70%;
+  height: auto;
+}
+
 /*Intro Paragraph*/
 .intro p
 {
   font-family: "Montserrat", sans-serif;
   font-size: 50%;
   text-align: center;
+  margin: 3%;
 }
 
 /*Intro Image*/
@@ -108,7 +116,7 @@ button:hover
 /*Find Out More Div*/
 .find-out-more
 {
-  margin: 5%;
+  margin: 3%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -118,5 +126,29 @@ button:hover
 /*Find Out More Button Div*/
 .find-out-button
 {
-  margin: 3%;
+  margin: 1%;
+}
+
+/*Gallery Div*/
+.gallery
+{
+  text-align: center;
+}
+
+/*Gallery Container Div*/
+.gallery-image-container
+{
+  margin: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*Gallery Image*/
+.gallery-image
+{
+  border: solid;
+  width:300px;
+  margin: 1%;
 }
