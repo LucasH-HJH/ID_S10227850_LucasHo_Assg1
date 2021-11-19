@@ -5,7 +5,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #3AAFA9;
 }
 
 /*Body*/
@@ -61,7 +60,7 @@ li a.current
 /*Nav-Link Hover Animation*/
 .nav_link li a:hover
 {
-  color: #EC90A7;
+  color: #054950;
 }
 
 /*Contact Me Button*/
@@ -80,7 +79,7 @@ button
 button:hover
 {
   background-color: rgba(0,136,169,0.8);
-  color: #EC90A7;
+  color: #054950;
 }
 
 /*Intro Div*/
@@ -156,6 +155,12 @@ button:hover
   border: solid;
   width:300px;
   margin: 1%;
+  transition: transform .2s;
+}
+
+.gallery-image:hover
+{
+  transform: scale(1.1);
 }
 
 footer
@@ -227,7 +232,7 @@ footer
   color: black;
   font-weight: bold;
   font-size: 20px;
-  border-radius: 0 3px 3px 0;
+  border-radius: 30px;
   user-select: none;
 }
 
@@ -236,7 +241,7 @@ footer
 {
   position: absolute;
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 30px;
 }
 
 /* Arrow Hover */
@@ -266,22 +271,94 @@ footer
   transition: background-color 0.6s ease;
 }
 
-/* Active Slideshow Indicator */
-.active, .dot:hover 
-{
-  background-color: rgb(243, 86, 125);
-}
-
 /* Slideshow Header */
 .slide-section 
 {
-  color: rgb(243, 86, 125);
+  color: #054950;
 }
 
 /* Slideshow List Item */
 .slide li
 {
   list-style: none;
-  margin: 2%;
+  margin: 3%;
   color: black;
+}
+
+/* Active Slideshow Indicator */
+.active, .dot:hover 
+{
+  background-color: #054950;
+}
+
+/* PORTFOLIO */
+/* Portfolio Block */
+.portfolio-block
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: 1%;
+}
+
+/* Container for Portfolio Item */
+.portfolio-container
+{
+  position: relative;
+  width: 80%;
+  margin: 3%;
+}
+
+/* Portfolio Image */
+.portfolio-image
+{
+  display: block;
+  width: 100%;
+  border-radius: 3%;
+}
+
+/* Portfolio Text Overlay */
+.portfolio-overlay
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.2s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  color: white;
+}
+
+/* Portfolio Overlay Blur Effect when Hovered */
+.portfolio-overlay--blur
+{
+  backdrop-filter: blur(5px);
+  border-radius: 3%;
+}
+
+/* Portfolio Overlay Hover */ 
+.portfolio-overlay:hover
+{
+  opacity: 1;
+  border-radius: 3%;
+}
+
+/* Portfolio Overlay Header */
+.portfolio-overlay h1
+{
+  font-weight: bold;
+}
+
+/* Portfolio Overlay Paragraph */
+.portfolio-overlay p
+{
+  margin: 2%;
 }
