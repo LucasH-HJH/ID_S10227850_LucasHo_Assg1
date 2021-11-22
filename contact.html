@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Lucas - Contact Me</title>
+    <!--normalize.css-->
+    <link href="normalize.css" rel="stylesheet" type="text/css"/>
+    <!--style.css-->
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+        <!--Navigation-->
+        <nav>
+          <ul class="nav_link">
+            <li><a class="current" href="./index.html">Home</a></li>
+            <li><a href="./about-me.html">About Me</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+          </ul>
+        </nav>
+        <a class="contact" href="./contact.html"><button class="active">Contact Me</button></a>
+    </header>
+    
+    <!--Contact Form Block-->
+    <div class="form-block">
+      <h2>Contact Me</h2>
+      <p>Feel free to send me a message!</p>
+      <form id="contact-form" method="GET">
+        <input id="name" type="text" class="field" placeholder="Name*" required>
+        <input id="email" type="email" class="field" placeholder="Email*" required>
+        <input id="phone" type="tel" class="field" placeholder="Phone">
+        <textarea placeholder="Message" class="field"></textarea>
+        <p class="required-msg">* Required</p>
+        <input type="submit" value="Submit" class="submit-button">
+      </form>
+    </div>
+
+    <!--Footer-->
+    <footer>
+      <p>Created by S10227850 | All resources were created by me.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
