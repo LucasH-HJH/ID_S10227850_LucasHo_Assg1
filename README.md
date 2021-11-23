@@ -1,5 +1,5 @@
 # ID_S10227850_LucasHo_Asg01
-This website serves as a portfolio for me. The website includes a short write up about myself, my work experience, education, skills, achievements, and my portfolio.
+This website serves as a portfolio for me. The website includes a short write up about myself, my work experience, education, skills, achievements, and my portfolio. It also includes a submission form for potential recruiters to reach out to me.
  
 ## Design Process
 This website was designed to allow potential recruiters to view my portfolio and understand me before deciding to recruit me.
@@ -34,15 +34,15 @@ Basic wireframe is provided in seperate directory.
   - The submission form allows recruiters to send an email to me. It includes a thank you message when a submission is successful.
 
 ### Features Left to Implement
-- None as of now.
+- None left as of now.
 
 ## Technologies Used
 - HTML
-  - 1 of the 3 base languages for WebDev
+  - 1 of the 3 base languages for Web Development
 - CSS
-  - 1 of the 3 base languages for WebDev
+  - 1 of the 3 base languages for Web Development
 - JavaScript 
-  - 1 of the 3 base languages for WebDev
+  - 1 of the 3 base languages for Web Development
 
 ## Testing
 1. Header Navigation bar
@@ -59,13 +59,32 @@ Basic wireframe is provided in seperate directory.
    3. Click on the right or left arrows in the slideshow
    4. Ensure that slides change after clicking on the arrows.
 
+
+3. Project Showcase
+    1. Go to the "Portfolio" page
+    2. Scroll to a project
+    3. Hover over the project image
+    4. Ensure the header and description of the project appears when hovered over
+
+
+4. Submission form
+    1. Go to the "Contact Me" page
+    2. Fill in the input fields
+    3. Ensure the input fields have the correct input validation assigned to them
+    4. Click on the "Submit" button.
+    5. Ensure that the form was submitted successfully and that you are redirected to the "Thank You" page.
+
 ## Credits
 ### Content
+- All content was created by me. Resources not owned by me are credited in the Media section.
 
 ### Media
-- Green Tick image: 
+- Green Tick image
   - https://www.millergroup.ca/application-submission/checkmark/
-
+- LinkedIn logo image
+  - https://www.edigitalagency.com.au/linkedin/new-linkedin-logo-png/
+- Instagram logo image
+  - https://www.flaticon.com/free-icon/instagram-logo_87390
 
 ### Acknowledgements
 - I received inspiration for this project from Mr Peter Hung, my tutor for the interactive development module
