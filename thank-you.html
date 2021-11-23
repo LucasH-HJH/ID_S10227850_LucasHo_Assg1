@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Lucas - Contact Me</title>
+    <title>Lucas - Home</title>
     <!--normalize.css-->
     <link href="normalize.css" rel="stylesheet" type="text/css"/>
     <!--style.css-->
@@ -23,23 +23,21 @@
             <li><a href="./portfolio.html">Portfolio</a></li>
           </ul>
         </nav>
-        <a class="contact" href="./contact.html"><button class="active">Contact Me</button></a>
+        <a class="contact" href="./contact.html"><button>Contact Me</button></a>
     </header>
     
-    <!--Contact Form Block-->
-    <div class="form-block">
-      <h2>Contact Me</h2>
-      <p>I would love to hear from you!</p>
-      <form class="contact-form" action="./thank-you.html" method="POST">
-        <input id="name" type="text" class="field" placeholder="Name*" required>
-        <input id="email" type="email" class="field" placeholder="Email*" required>
-        <input id="phone" type="tel" class="field" placeholder="Phone">
-        <textarea placeholder="Message" class="field"></textarea>
-        <p class="required-msg">* Required</p>
-        <div class="input-button">
-          <input type="submit" value="Submit" class="submit-button">
-        </div>
-      </form>
+    <!--Thank you Block-->
+    <div class="thank-block">
+      <img class="thank-img" src="images/thankyou.png">
+      <h2>Your response has been submitted successfully!</h2>
+      <p>You can also find me on:</p>
+      <div class="ext-link-block">
+        <!--noopener noreferrer is used to prevent acces & information from being accessed or passed-->
+        <a class ="img-space" href="https://www.linkedin.com/in/lucas-ho-dip-it/" target="_blank" rel="noopener noreferrer"><img class="ext-link" src="images/linkedin.png" alt="LinkedIn"></a>
+        <a class ="img-space" href="https://www.instagram.com/i_luke_h/" target="_blank" rel="noopener noreferrer"><img class="ext-link" src="images/instagram.png" alt="Instagram"></a>
+      </div>
+      
+      <a href="./index.html"><button>Go Back</button></a>
     </div>
 
     <!--Footer-->
@@ -50,6 +48,6 @@
         <a class ="footer-img-space" href="https://www.instagram.com/i_luke_h/" target="_blank" rel="noopener noreferrer"><img class="footer-link" src="images/instagram.png" alt="Instagram"></a>
       </div>
     </footer>
-
+    
   </body>
 </html>
