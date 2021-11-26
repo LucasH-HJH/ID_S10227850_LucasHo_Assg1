@@ -87,4 +87,4 @@ Basic wireframe is provided in seperate directory.
   - https://www.flaticon.com/free-icon/instagram-logo_87390
 
 ### Acknowledgements
-- I received inspiration for this project from Mr Peter Hung, my tutor for the interactive development module
+- I received feedback and advice for this project from Mr Peter Hung, my tutor for the interactive development module.
